@@ -1,0 +1,40 @@
+h1{
+    letter-spacing: 10px;
+    font-size: 100px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.header-custom{
+  background-image: url(./media/copertina.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  /* Fondamentale: la transizione definisce cosa animare */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* Stato hover: cosa succede quando passi col mouse */
+.card:hover {
+  transform: translateY(-10px); /* Alza la card di 10px */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Aggiunge un'ombra */
+}
+
+.btn:hover{
+   transform: translateY(-10px); /* Alza la card di 10px */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Aggiunge un'ombra */
+}
+
+.section-custom{
+  background-color: rgba(0, 0, 0, 0.867);
+}
+
